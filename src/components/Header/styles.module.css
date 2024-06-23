@@ -1,0 +1,44 @@
+.container {
+  background-color: #fff;
+  padding: 18px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 70px;
+}
+
+.navItemsContainer {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navItem {
+  padding: 1rem;
+  border-radius: 41px;
+}
+.navItem span {
+  margin-left: 0.5rem;
+}
+.navItem.active {
+  background-color: #01f0d0;
+}
+
+.profileContainer {
+  display: flex;
+  gap: 0.8rem;
+}
+.profileIcon {
+  /* width: 44px;
+  height: 44px; */
+}
+.profileIconsContainer {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.profileInfoContainer {
+}
+.separator {
+  border-right: 1px solid #e9e9e9;
+}
