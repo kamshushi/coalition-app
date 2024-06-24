@@ -1,0 +1,9 @@
+.sectionContainer {
+  border-radius: 16px;
+  padding: 0.8rem;
+  background-color: white;
+}
+
+.patientsListContainer {
+  overflow: auto;
+}

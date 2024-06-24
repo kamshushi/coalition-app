@@ -7,6 +7,7 @@
   gap: 1rem;
   border-radius: 70px;
   grid-area: "nav";
+  margin-bottom: 2rem;
 }
 
 .navItemsContainer {
