@@ -6,11 +6,12 @@
   align-items: center;
   gap: 1rem;
   border-radius: 70px;
+  grid-area: "nav";
 }
 
 .navItemsContainer {
   display: flex;
-  gap: 1.5rem;
+  gap: 0.5rem;
 }
 
 .navItem {
@@ -34,8 +35,11 @@
 }
 .profileIconsContainer {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.8rem;
   align-items: center;
+}
+.profileIconsContainer span {
+  cursor: pointer;
 }
 .profileInfoContainer {
 }
