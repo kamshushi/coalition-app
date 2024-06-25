@@ -22,6 +22,12 @@ const ContactInfo = () => {
     insurance_type,
   } = currentPatientData || {};
   const isFemale = gender === "Female";
+  const birthDate = new Date(date_of_birth);
+  const formattedBirthDate = birthDate.toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  });
   return (
     <section className={classes.contactInfoContainer}>
       <div className="mb-2 text-center">
@@ -41,7 +47,7 @@ const ContactInfo = () => {
           <InfoRow
             icon={BirthIcon}
             label="Date Of Birth"
-            value={date_of_birth}
+            value={formattedBirthDate}
           />
         </div>
         <div className="mb-2">
