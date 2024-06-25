@@ -20,8 +20,8 @@ const PatientItem = ({ patient }) => {
           className={classes.patientImg}
         />
         <div>
-          <p>{name}</p>
-          <p className="secondary-text">
+          <p className="font-2 fw-bold">{name}</p>
+          <p className="secondary-text font-2 fw-regular">
             {gender}, {age}
           </p>
         </div>

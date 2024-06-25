@@ -10,7 +10,7 @@ const GraphSection = () => {
       <div>
         <div className="flex justify-between align-center mb-2">
           <h4>Blood Pressure</h4>
-          <p>
+          <p className="font-2 fw-regular">
             Last 6 months
             <span
               style={{

@@ -11,7 +11,7 @@ const Patients = () => {
       <div
         className={`flex justify-between align-center ${classes.headerContainer}`}
       >
-        <h3>Patients</h3>
+        <h3 className="font-4 fw-bolder">Patients</h3>
         <div className="pointer">
           <SearchIcon />
         </div>

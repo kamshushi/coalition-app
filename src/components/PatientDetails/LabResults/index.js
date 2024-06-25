@@ -9,12 +9,12 @@ const LabResults = () => {
 
   return (
     <section className={classes.sectionContainer}>
-      <h3 className="mb-2">Lab Results</h3>
+      <h3 className="mb-2 font-4 fw-bolder">Lab Results</h3>
       <div className={classes.resultsContainer}>
         {lab_results.map((result) => {
           return (
-            <div className={classes.resultRow}>
-              <p>{result}</p>
+            <div key={result} className={classes.resultRow}>
+              <p className="font-2 fw-regular">{result}</p>
               <div>
                 <DownloadIcon />
               </div>

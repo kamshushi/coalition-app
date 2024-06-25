@@ -14,7 +14,7 @@ const ProfileSection = () => {
         />
       </div>
       <div className={classes.profileInfoContainer}>
-        <p>Dr.Jose Simmons</p>
+        <p className="font-2 fw-bold">Dr.Jose Simmons</p>
         <p className="secondary-text">General Practitioner</p>
       </div>
       <div className={classes.separator}></div>

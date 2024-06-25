@@ -13,17 +13,22 @@ const BloodPressureInfo = () => {
       <div>
         <div className="flex align-center mb-sm" style={{ gap: "0.5rem" }}>
           <div className={classes.systolicDot}></div>
-          <p>Systolic</p>
+          <p className="font-2 fw-bold">Systolic</p>
         </div>
-        <h4 className="mb-sm">{blood_pressure?.systolic?.value}</h4>
-        <p>
-          <span style={{ marginRight: "0.5rem" }}>
-            {blood_pressure?.systolic?.levels === "Lower than Average" ? (
+        <h4 className="mb-sm font-4 fw-bold">
+          {blood_pressure?.systolic?.value}
+        </h4>
+        <p className="fw-regular font-2">
+          {blood_pressure?.systolic?.levels === "Lower than Average" ? (
+            <span className="mr-sm">
               <ArrowDownIcon />
-            ) : blood_pressure?.systolic?.levels === "Higher than Average" ? (
+            </span>
+          ) : blood_pressure?.systolic?.levels === "Higher than Average" ? (
+            <span className="mr-sm">
               <ArrowUpIcon />
-            ) : null}
-          </span>
+            </span>
+          ) : null}
+
           {blood_pressure?.systolic?.levels || ""}
         </p>
       </div>
@@ -31,10 +36,12 @@ const BloodPressureInfo = () => {
       <div>
         <div className="flex align-center mb-sm" style={{ gap: "0.5rem" }}>
           <div className={classes.diastolicDot}></div>
-          <p>Diastolic</p>
+          <p className="font-2 fw-bold">Diastolic</p>
         </div>
-        <h4 className="mb-sm">{blood_pressure?.diastolic?.value}</h4>
-        <p>
+        <h4 className="mb-sm font-4 fw-bold">
+          {blood_pressure?.diastolic?.value}
+        </h4>
+        <p className="fw-regular font-2">
           <span style={{ marginRight: "0.5rem" }}>
             {blood_pressure?.diastolic?.levels === "Lower than Average" ? (
               <ArrowDownIcon />

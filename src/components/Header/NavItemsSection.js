@@ -10,7 +10,7 @@ import {
 
 const NavItemsSection = () => {
   return (
-    <div className={styles.navItemsContainer}>
+    <div className={`${styles.navItemsContainer} font-2 fw-bold`}>
       <a href="#" className={styles.navItem}>
         <HomeIcon /> <span>Overview</span>
       </a>

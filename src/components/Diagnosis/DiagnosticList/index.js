@@ -7,11 +7,11 @@ const DiagnosticList = () => {
   const { diagnostic_list = [] } = currentPatientData || {};
   return (
     <section className={classes.listContainer}>
-      <h3 className="mb-2">Diagnostic List</h3>
+      <h3 className="mb-2 font-4 fw-bolder">Diagnostic List</h3>
       <div className={classes.tableContainer}>
         <table className={classes.customTable}>
           <thead>
-            <tr>
+            <tr className="font-2 fw-bold">
               <th>Problem/Diagnosis</th>
               <th>Description</th>
               <th>Status</th>
@@ -21,7 +21,7 @@ const DiagnosticList = () => {
             {diagnostic_list.map((historyItem, i) => {
               const { description, name, status } = historyItem;
               return (
-                <tr key={i}>
+                <tr className="font-2 fw-regular" key={i}>
                   <td>{name}</td>
                   <td>{description}</td>
                   <td>{status}</td>

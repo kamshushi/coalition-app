@@ -11,16 +11,18 @@ const InfoCard = ({ icon: Icon, bgColor, title, value, levels }) => {
       <div className="mb-1">
         <Icon />
       </div>
-      <p className="mb-sm">{title}</p>
-      <h4 className="mb-2">{value}</h4>
-      <p>
-        <span className="mr-sm">
-          {levels === "Lower than Average" ? (
+      <p className="mb-sm font-3 fw-regular">{title}</p>
+      <h4 className="mb-1 font-5 fw-boldest">{value}</h4>
+      <p className="fw-regular font-2">
+        {levels === "Lower than Average" ? (
+          <span className="mr-sm">
             <ArrowDownIcon />
-          ) : levels === "Higher than Average" ? (
+          </span>
+        ) : levels === "Higher than Average" ? (
+          <span className="mr-sm">
             <ArrowUpIcon />
-          ) : null}
-        </span>
+          </span>
+        ) : null}
         {levels || ""}
       </p>
     </div>

@@ -6,7 +6,7 @@ import CardsSection from "./CardsSection";
 const DiagnosisHistory = () => {
   return (
     <section className={classes.sectionContainer}>
-      <h3 className="mb-2">Diagnosis History</h3>
+      <h3 className="mb-2 font-4 fw-bolder">Diagnosis History</h3>
       <div className={classes.statisticsContainer}>
         <GraphSection />
         <CardsSection />

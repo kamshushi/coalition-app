@@ -9,8 +9,8 @@ const InfoRow = ({ icon: Icon, label, value }) => {
         <Icon />
       </div>
       <div>
-        <p className="mb-sm">{label}</p>
-        <p>{value}</p>
+        <p className="mb-sm font-2 fw-regular">{label}</p>
+        <p className="font-2 fw-bold">{value}</p>
       </div>
     </div>
   );

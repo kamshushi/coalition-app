@@ -39,7 +39,7 @@ const ContactInfo = () => {
           />
         </div>
         <div>
-          <h3>{name}</h3>
+          <h3 className="font-4 fw-bolder">{name}</h3>
         </div>
       </div>
       <div>
@@ -81,7 +81,9 @@ const ContactInfo = () => {
         </div>
       </div>
       <div className="text-center mt-3">
-        <button className={classes.infoButton}>Show All Information</button>
+        <button className={`${classes.infoButton} font-2 fw-bold`}>
+          Show All Information
+        </button>
       </div>
     </section>
   );
