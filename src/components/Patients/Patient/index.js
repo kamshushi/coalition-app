@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./styles.module.css";
-import HorizontalThreeDotsIcon from "../../../assets/svgs/HorizontalThreeDotsIcon";
+import { HorizontalThreeDotsIcon } from "../../../assets/svgs";
 
 const PatientItem = ({ patient }) => {
   const { profile_picture, age, gender, name } = patient;

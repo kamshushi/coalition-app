@@ -16,16 +16,16 @@
   width: 100%;
   border-collapse: collapse;
 }
-.customTable tr:first-child {
+.customTable thead tr:first-child {
   background-color: #f6f7f8;
   width: 100%;
   border-collapse: separate;
 }
-.customTable tr:first-child th:first-child {
+.customTable thead tr:first-child th:first-child {
   border-top-left-radius: 24px;
   border-bottom-left-radius: 24px;
 }
-.customTable tr:first-child th:last-child {
+.customTable thead tr:first-child th:last-child {
   border-top-right-radius: 24px;
   border-bottom-right-radius: 24px;
 }

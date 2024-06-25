@@ -30,7 +30,7 @@ const HeartIcon = () => {
         fill="#fff"
       />
       <g id="Health" transform="translate(18.145 24.001)">
-        <g id="Group_13" data-name="Group 13" clip-path="url(#clip-path)">
+        <g id="Group_13" data-name="Group 13" clipPath="url(#clip-path)">
           <path
             id="Path_16"
             data-name="Path 16"

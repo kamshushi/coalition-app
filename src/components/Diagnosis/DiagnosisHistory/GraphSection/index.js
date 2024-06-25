@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "../styles.module.css";
 import Graph from "./Graph";
-import DropDownIcon from "../../../../assets/svgs/DropDownIcon";
 import BloodPressureInfo from "./BloodPressureInfo";
+import { DropDownIcon } from "../../../../assets/svgs";
 
 const GraphSection = () => {
   return (

@@ -1,8 +1,7 @@
 import React from "react";
 import classes from "./styles.module.css";
 import profileImg from "../../assets/images/profile-picture.png";
-import GearIcon from "../../assets/svgs/GearIcon";
-import ThreeDotsIcon from "../../assets/svgs/ThreeDotsIcon";
+import { GearIcon, ThreeDotsIcon } from "../../assets/svgs";
 
 const ProfileSection = () => {
   return (

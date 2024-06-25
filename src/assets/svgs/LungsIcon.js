@@ -31,7 +31,7 @@ const LungsIcon = () => {
         fill="#fff"
       />
       <g id="Group_15" data-name="Group 15" transform="translate(21.311 19.75)">
-        <g id="Group_14" data-name="Group 14" clip-path="url(#clip-path)">
+        <g id="Group_14" data-name="Group 14" clipPath="url(#clip-path)">
           <path
             id="Path_19"
             data-name="Path 19"

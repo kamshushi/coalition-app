@@ -1,0 +1,28 @@
+.contactInfoContainer {
+  border-radius: 16px;
+  padding: 1rem;
+  background-color: #fff;
+  min-height: 0;
+  max-height: 55vh;
+  overflow: auto;
+}
+.profileImage {
+  height: 200px;
+  width: 200px;
+}
+
+.itemRowContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.infoButton {
+  padding: 1rem 2.5rem;
+  font-weight: bold;
+  width: 60%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #01f0d0;
+  border-radius: 41px;
+}

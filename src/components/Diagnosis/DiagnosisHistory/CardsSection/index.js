@@ -1,9 +1,7 @@
 import React from "react";
 import InfoCard from "./InfoCard";
-import LungsIcon from "../../../../assets/svgs/LungsIcon";
 import { usePatientsContext } from "../../../../contexts/PatientsContext";
-import TempratureIcon from "../../../../assets/svgs/TempratureIcon";
-import HeartIcon from "../../../../assets/svgs/HeartIcon";
+import { LungsIcon, HeartIcon, TempratureIcon } from "../../../../assets/svgs";
 
 const CardsSection = () => {
   const { currentPatientData } = usePatientsContext();

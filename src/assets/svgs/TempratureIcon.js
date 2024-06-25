@@ -30,7 +30,7 @@ const TempratureIcon = () => {
         fill="#fff"
       />
       <g id="Group_17" data-name="Group 17" transform="translate(32 20)">
-        <g id="Group_16" data-name="Group 16" clip-path="url(#clip-path)">
+        <g id="Group_16" data-name="Group 16" clipPath="url(#clip-path)">
           <path
             id="Path_26"
             data-name="Path 26"

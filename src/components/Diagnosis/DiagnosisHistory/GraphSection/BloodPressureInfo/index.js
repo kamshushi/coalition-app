@@ -1,8 +1,7 @@
 import React from "react";
-import ArrowUpIcon from "../../../../../assets/svgs/ArrowUpIcon";
 import classes from "../../styles.module.css";
 import { usePatientsContext } from "../../../../../contexts/PatientsContext";
-import ArrowDownIcon from "../../../../../assets/svgs/LowerIcon";
+import { ArrowUpIcon, ArrowDownIcon } from "../../../../../assets/svgs";
 
 const BloodPressureInfo = () => {
   const { currentPatientData } = usePatientsContext();

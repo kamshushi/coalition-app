@@ -1,6 +1,7 @@
 * {
   min-width: 0;
   box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
 }
 body {
   margin: 0;
@@ -159,4 +160,8 @@ h6 {
 }
 .mr-5 {
   margin-right: 3rem;
+}
+
+.text-center {
+  text-align: center;
 }

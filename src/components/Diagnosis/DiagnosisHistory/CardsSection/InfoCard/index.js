@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "../../styles.module.css";
-import ArrowDownIcon from "../../../../../assets/svgs/LowerIcon";
-import ArrowUpIcon from "../../../../../assets/svgs/ArrowUpIcon";
+import { ArrowDownIcon, ArrowUpIcon } from "../../../../../assets/svgs";
 
 const InfoCard = ({ icon: Icon, bgColor, title, value, levels }) => {
   return (
