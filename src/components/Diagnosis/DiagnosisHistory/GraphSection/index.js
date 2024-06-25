@@ -24,8 +24,9 @@ const GraphSection = () => {
             </span>
           </p>
         </div>
-
-        <Graph />
+        <div style={{ maxHeight: 300 }}>
+          <Graph />
+        </div>
       </div>
       <div>
         <BloodPressureInfo />
