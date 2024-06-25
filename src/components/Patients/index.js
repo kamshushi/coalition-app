@@ -18,7 +18,7 @@ const Patients = () => {
       </div>
       <div className={classes.patientsListContainer}>
         {patients.map((patient) => {
-          return <PatientItem patient={patient} />;
+          return <PatientItem key={patient.name} patient={patient} />;
         })}
       </div>
     </section>

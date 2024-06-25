@@ -1,0 +1,23 @@
+.sectionContainer {
+  border-radius: 16px;
+  background-color: #fff;
+  padding: 1rem;
+  min-height: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.resultsContainer {
+  overflow: auto;
+}
+.resultRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 1rem;
+}
+.resultRow:hover {
+  background-color: #f6f7f8;
+}
