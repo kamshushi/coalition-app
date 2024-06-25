@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.container.active {
+  background-color: #d8fcf7;
+}
+
+.patientInfo {
+  display: flex;
+  gap: 1rem;
+}
+.patientImg {
+  width: 48px;
+  height: 48px;
+}
+.svgContainer {
+  line-height: 0;
+  cursor: pointer;
+}

@@ -1,9 +1,12 @@
+import { PatientsContextProvider } from "./contexts/PatientsContext";
 import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <PatientsContextProvider>
+        <Home />
+      </PatientsContextProvider>
     </div>
   );
 }

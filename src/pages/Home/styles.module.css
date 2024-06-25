@@ -3,9 +3,14 @@
   background-color: #f6f7f8;
   height: 100vh;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 .pageContentContainer {
   display: grid;
+  height: 1px;
+  flex: 1;
   grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100%;
   gap: 1rem;
 }
