@@ -3,6 +3,7 @@ import { createContext, useContext, useEffect, useMemo, useState } from "react";
 const patientsContextInitialValues = {
   loading: false,
   patients: [],
+  currentPatientData: undefined,
 };
 const PatientsContext = createContext(patientsContextInitialValues);
 
@@ -37,12 +38,17 @@ export const PatientsContextProvider = ({ children, ...props }) => {
     fetchData();
   }, []);
 
+  const currentPatientData = useMemo(() => {
+    return patients.find(({ name }) => name === "Jessica Taylor");
+  }, [patients]);
+
   const value = useMemo(() => {
     return {
       patients,
       loading,
+      currentPatientData,
     };
-  }, [patients, loading]);
+  }, [patients, loading, currentPatientData]);
 
   return (
     <PatientsContext.Provider value={value} {...props}>

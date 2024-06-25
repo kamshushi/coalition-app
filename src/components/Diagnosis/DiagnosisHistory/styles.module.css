@@ -1,0 +1,34 @@
+.sectionContainer {
+  border-radius: 16px;
+  padding: 1rem;
+  background-color: #fff;
+}
+.statisticsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.graphContainer {
+  grid-column: span 3 / span 3;
+  background-color: #f4f0fe;
+  padding: 1rem;
+  border-radius: 16px;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 3fr 1fr;
+}
+
+.systolicDot {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background-color: #e66fd2;
+}
+.diastolicDot {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background-color: #8c6fe6;
+}

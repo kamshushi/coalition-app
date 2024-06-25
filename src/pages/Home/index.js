@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import Header from "../../components/Header";
 import Patients from "../../components/Patients";
 import { usePatientsContext } from "../../contexts/PatientsContext";
+import Diagnosis from "../../components/Diagnosis";
 
 const Home = () => {
   const { loading } = usePatientsContext();
@@ -14,6 +15,7 @@ const Home = () => {
       ) : (
         <div className={styles.pageContentContainer}>
           <Patients />
+          <Diagnosis />
         </div>
       )}
     </div>
