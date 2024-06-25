@@ -32,3 +32,8 @@
   border-radius: 50%;
   background-color: #8c6fe6;
 }
+
+.infoCardContainer {
+  border-radius: 16px;
+  padding: 1rem;
+}
